@@ -1,0 +1,168 @@
+#editOverlayContainer {
+    width: 90vw;
+    height: 90vh;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #0000004a;
+    opacity: 1;
+    border-radius: 18px;
+    font-weight: 500;
+    animation: animateZoom 0.5s;
+}
+
+@keyframes animateZoom{
+    from{transform:scale(0)}
+    to{transform:scale(1)}
+}
+
+
+#editOverlayInnerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#editOverlayLeftSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    align-items: flex-start;
+    width: 50%;
+    height: 100%;
+}
+
+#editOverlayLeftSideNavbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+#editOverlayLeftSideImg{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    max-height: 400px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    border: solid black 0.01rem;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#editOverlayLeftSideDwnBtn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#editOverlayLeftSide #editOverlayCloseBtn{
+    margin: 2px 0px 5px 5px;
+    border-radius: 5%;
+    border: solid 0.01rem black;
+    font-size: larger;
+}
+
+#editOverlayRightSide{
+    background-color: #80808099;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#editOverlayRightSideAdjustBlur{
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#editOverlayRightSideAddBackground {
+    width: 100%;
+    height: 50%;
+    margin: auto;
+}
+/* -------------------------------------- ZOOM COMPONENT ---------------------------------- */
+#editOverlayZoomControl{
+    display: flex;
+}
+#editOverlayZoomControl #zoomInput{
+    width: 40px;
+}
+
+/* -------------------------------------- ROTATE COMPONENT ---------------------------------- */
+#editOverlayRotateControl{
+    display: flex;
+    margin: 0 5px;
+}
+
+/* -------------------------------------- BLUR COMPONENT ---------------------------------- */
+#blurContainer{
+    width: 100%;
+    max-width: 200px;
+    height: 100%;
+    max-height: 200px;
+}
+#editOverlayRightSideAdjustBlur{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: 200px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* -------------------------------------- BACKGROUND COMPONENT ---------------------------------- */
+.backgroundContainerImg {
+    width: 100%;
+    max-width: 200px;
+    height: 100%;
+    max-height: 200px;
+    cursor: pointer;
+}
+#backgroundContainer{
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    height:100%;
+    max-height: 400px;
+}
+/* -------------------------------------- SCREEN < 720px ---------------------------------- */
+
+@media only screen and (max-width: 720px) {
+    #editOverlayInnerContainer{
+        flex-direction: column;
+    }
+
+    #editOverlayLeftSide, #editOverlayRightSide{
+        width: 100%;
+    }
+
+    #editOverlayRightSideAdjustBlur{
+        flex-direction: column;
+    }
+}

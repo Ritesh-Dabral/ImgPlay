@@ -1,0 +1,81 @@
+#customDashboardContainer {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0 0 0);
+    font-family: 'Poppins';
+}
+
+#leftDashboardSide{
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+}
+
+#leftDashboardSide #heading{
+    text-transform: uppercase;
+    transform: rotate(270deg);
+    display: inline-block;
+    font-size: 5vw;
+    font-weight: 900;   
+    height: auto;
+    letter-spacing: 15px;
+}
+#rightDashboardSide{
+    background-color: #ffffff;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 720px) {
+    #customDashboardContainer{
+        flex-direction: column;
+    }
+    #leftDashboardSide{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height:30%;
+        width: 100%;
+    }
+    #leftDashboardSide #heading{
+        transform: rotate(0deg);
+    }
+    #rightDashboardSide{
+        height: 100%;
+        width: 100%;
+    }
+}
+
+/* --------------------- RIGHT SIDE DASHBOARD ----------------------- */
+#rightDashboardSideUploadForm {
+    margin: 2rem auto;
+    width: 90%;
+    padding: 5px;
+    text-align: center;
+}
+
+#chooseFileBtn {
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    background: #31ca1561;
+    font-family: monospace;
+    font-size: larger;
+    color: blueviolet;
+    font-weight: bolder;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#rightDashboardSideBtns{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
