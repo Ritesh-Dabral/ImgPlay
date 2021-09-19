@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+[https://ritesh-dabral.github.io/ImgPlay/](https://ritesh-dabral.github.io/ImgPlay/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ### `Highlights`
@@ -16,3 +18,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * In the root directory run `npm start`
 * Once the application is compiled, in the browser, open [http://localhost:3000]
 
+### `Endpoints`
+* The app exposes two end points mainly `edit` and `dashboard`
+* Before accessing `edit`, make sure to upload an image, else the application will throw error
