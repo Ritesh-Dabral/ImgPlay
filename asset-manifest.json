@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ImgPlay/static/css/main.7f07a3ee.chunk.css",
+    "main.js": "/ImgPlay/static/js/main.0cd0eee0.chunk.js",
+    "main.js.map": "/ImgPlay/static/js/main.0cd0eee0.chunk.js.map",
+    "runtime-main.js": "/ImgPlay/static/js/runtime-main.6adacfa8.js",
+    "runtime-main.js.map": "/ImgPlay/static/js/runtime-main.6adacfa8.js.map",
+    "static/css/2.818011ed.chunk.css": "/ImgPlay/static/css/2.818011ed.chunk.css",
+    "static/js/2.052f0f70.chunk.js": "/ImgPlay/static/js/2.052f0f70.chunk.js",
+    "static/js/2.052f0f70.chunk.js.map": "/ImgPlay/static/js/2.052f0f70.chunk.js.map",
+    "static/js/3.990544f4.chunk.js": "/ImgPlay/static/js/3.990544f4.chunk.js",
+    "static/js/3.990544f4.chunk.js.map": "/ImgPlay/static/js/3.990544f4.chunk.js.map",
+    "index.html": "/ImgPlay/index.html",
+    "static/css/2.818011ed.chunk.css.map": "/ImgPlay/static/css/2.818011ed.chunk.css.map",
+    "static/css/main.7f07a3ee.chunk.css.map": "/ImgPlay/static/css/main.7f07a3ee.chunk.css.map",
+    "static/js/2.052f0f70.chunk.js.LICENSE.txt": "/ImgPlay/static/js/2.052f0f70.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6adacfa8.js",
+    "static/css/2.818011ed.chunk.css",
+    "static/js/2.052f0f70.chunk.js",
+    "static/css/main.7f07a3ee.chunk.css",
+    "static/js/main.0cd0eee0.chunk.js"
+  ]
+}
